@@ -28,6 +28,7 @@ const Navbar = () => {
           Dev <span className={"text-primary-500"}>OverFlow</span>
         </p>
       </Link>
+      {/*  changed Global Search to client and add onChange to stop the error */}
       <GlobalSearch />
       <div className={"flex-between gap-5"}>
         <Theme />

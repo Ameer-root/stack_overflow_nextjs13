@@ -3,19 +3,19 @@ import Link from "next/link";
 import Image from "next/image";
 import RenderTag from "@/components/shared/RenderTag";
 const hotQuestions = [
-  { _id: 1, title: "How do i use express as a custom server in NextJS?" },
-  { _id: 2, title: "How do i use express as a custom server in NextJS?" },
-  { _id: 3, title: "How do i use express as a custom server in NextJS?" },
-  { _id: 4, title: "How do i use express as a custom server in NextJS?" },
-  { _id: 5, title: "How do i use express as a custom server in NextJS?" },
+  { _id: "1", title: "How do i use express as a custom server in NextJS?" },
+  { _id: "2", title: "How do i use express as a custom server in NextJS?" },
+  { _id: "3", title: "How do i use express as a custom server in NextJS?" },
+  { _id: "4", title: "How do i use express as a custom server in NextJS?" },
+  { _id: "5", title: "How do i use express as a custom server in NextJS?" },
 ];
 
 const popularTags = [
-  { _id: 1, name: "javascript", totalQuestions: 5 },
-  { _id: 2, name: "react", totalQuestions: 4 },
-  { _id: 3, name: "next", totalQuestions: 6 },
-  { _id: 4, name: "php", totalQuestions: 2 },
-  { _id: 5, name: "vuejs", totalQuestions: 1 },
+  { _id: "1", name: "javascript", totalQuestions: 5 },
+  { _id: "2", name: "react", totalQuestions: 4 },
+  { _id: "3", name: "next", totalQuestions: 6 },
+  { _id: "4", name: "php", totalQuestions: 2 },
+  { _id: "5", name: "vuejs", totalQuestions: 1 },
 ];
 const RightSidebar = () => {
   return (
